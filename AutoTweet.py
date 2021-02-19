@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-PATH = "C:\Program Files (x86)\chromedriver.exe" # Setting things up
+PATH = "C:\Program Files (x86)\chromedriver.exe" # Setting things up (chrome driver must be installed)
 driver = webdriver.Chrome(PATH)
 
 driver.get("https://twitter.com/login?lang=pt") #Access the twitter login page
